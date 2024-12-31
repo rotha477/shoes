@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabBase-Online Store</title>
+    <link href="tabase.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://tabbase.myshopify.com/cdn/shop/files/Group-1858_1_c6f15036-5902-4b8d-8cae-f7d79cea3ae3.png?v=1650435835">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="https://tabbase.myshopify.com/cdn/shop/files/Group_1863_246x.png?v=1650346870" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li id="drop-store"><a href="#" >Store <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="drop-down-store">
+                           <div class="drop-menu">
+                                <ul>
+                                    <li><a href="#">filter panel</a></li>
+                                    <li><a href="#">canvas sidebar</a></li>
+                                    <li><a href="#">grid view</a></li>
+                                    <li><a href="#">list view</a></li>
+                                    <li><a href="#">pagination page</a></li>
+                                </ul>
+                           </div>
+                           <div class="drop-menu">
+                            <ul>
+                                <li><a href="#">product color swatch</a></li>
+                                <li><a href="#">product swatch dropdown</a></li>
+                                <li><a href="#">sale notification</a></li>
+                                <li><a href="#"> dynamic checkout button</a></li>
+                                <li><a href="#">pagination page</a></li>
+                            </ul>
+                           </div>
+                           <div class="drop-menu">
+                            <ul>
+                                <li><a href="#">product tab information</a></li>
+                                <li><a href="#">product recommendation</a></li>
+                                <li><a href="#">RTL Layout</a></li>
+                                <li><a href="#">list view</a></li>
+                                <li><a href="#">pagination page</a></li>
+                            </ul>
+                           </div>
+                           <div class="drop-menu">
+                            <ul>
+                                <li><a href="#">filter panel</a></li>
+                                <li><a href="#"> carousel</a></li>
+                                <li><a href="#">product thumbnail</a></li>
+                                <li><a href="#">product review</a></li>
+                                <li><a href="#"> product stack</a></li>
+                            </ul>
+                           </div>
+                           <div class="image">
+                                <img src="https://tabbase.myshopify.com/cdn/shop/files/Untitled-1.jpg?v=1650688236" alt="">
+                           </div>
+                        </div>
+                    </li>
+                    <li id="drop-men"><a href="#">For Men <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="drop-down-store">
+                            <div class="drop-menu">
+                                 <ul>
+                                     <li><a href="#"><b>Shoes</b></a></li>
+                                     <li><a href="#">Knee high boots</a></li>
+                                     <li><a href="#">Boots</a></li>
+                                     <li><a href="#">Wellington boots</a></li>
+                                     <li><a href="#">Timberland boots</a></li>
+                                 </ul>
+                            </div>
+                            <div class="drop-menu">
+                             <ul>
+                                 <li><a href="#"><b>Sneakers</b></a></li>
+                                 <li><a href="#">For Men</a></li>
+                                 <li><a href="#">Top Products</a></li>
+                                 <li><a href="#">For Kid</a></li>
+                                 <li><a href="#">Pages / Layouts</a></li>
+                             </ul>
+                            </div>
+                            <div class="drop-menu">
+                             <ul>
+                                 <li><a href="#"><b>Sports Shoes</b></a></li>
+                                 <li><a href="#">Bata sport shoes</a></li>
+                                 <li><a href="#">Hush Puppies</a></li>
+                                 <li><a href="#">Louis Philippe</a></li>
+                                 <li><a href="#">Tata International</a></li>
+                             </ul>
+                            </div>
+                            <div class="drop-menu">
+                             <ul>
+                                 <li><a href="#"><b>Sport Sneakers</b></a></li>
+                                 <li><a href="#">Puma snekers</a></li>
+                                 <li><a href="#">Reebok</a></li>
+                                 <li><a href="#">Under Armour</a></li>
+                                 <li><a href="#">Skechers shoes</a></li>
+                             </ul>
+                            </div>              
+                            <div class="image">
+                                 <img src="https://tabbase.myshopify.com/cdn/shop/files/1_5.jpg?v=1650439204" alt="">
+                            </div>
+                         </div>
+                    </li>
+                    <li><a href="#">Top Products</a></li>
+                    <li><a href="#">For Women</a></li>
+                    <li><a href="#">Blogs <i class="fa-solid fa-angle-down"></i></a></li>
+                </ul>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <section>
+        <article>
+
+                <div class="left-article">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <h2>The Best   <br>Collection 
+                        <b>2024</b>
+                    </h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. is a <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+
+                <div class="right-article" title="Shop Now">
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                 <img src="https://tabbase.myshopify.com/cdn/shop/files/Group-1858_1_c6f15036-5902-4b8d-8cae-f7d79cea3ae3.png?v=1650435835" alt="">
+                </div>
+            </div>
+
+        </article>
+        <div class="box-card">
+            <div class="card">
+                <img src="https://tabbase.myshopify.com/cdn/shop/files/Group-1861_1_150X150.png?v=1650435865" alt="">
+            </div>
+            <div class="card">
+                <img src="https://tabbase.myshopify.com/cdn/shop/files/1_1_150X150.png?v=1650435883" alt="">
+            </div>
+            <div class="card">
+                <img src="https://tabbase.myshopify.com/cdn/shop/files/Group-1858_1_c6f15036-5902-4b8d-8cae-f7d79cea3ae3_150X150.png?v=1650435835" alt="">
+            </div>
+            <div class="card">
+                <img src="https://tabbase.myshopify.com/cdn/shop/files/Group-1859_1_150X150.png?v=1650435849" alt="">
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="special-section">
+            <div class="special-section-banner" title="banners">
+                <img src="https://tabbase.myshopify.com/cdn/shop/files/1_5.jpg?v=1650439204" alt="">
+                <div class="title">
+                    <h5>THE BEST COLLCETIONS</h5>
+                    <h2>Leather Shoes Collection</h2>
+                    <h3>50% Off Sale</h3>
+                </div>
+            </div>
+            <div class="special-section-product">
+                <h1>Best Rated Product</h1>
+                <div class="product-card">
+                    <div class="card">
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/products/15_1_dfcad812-3f77-49fa-aedd-55d050321f6b_493x.jpg?v=1650701327" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h6>Sports Runing Sneakers</h6>
+                            <p>$549.00 <del>$ 799.00</del></p>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <button>Add to card</button>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/products/11_1_b398927e-ee1b-43ee-a3e9-fab2797f46c6_493x.jpg?v=1650701525" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h6>Sports Shoes of High Quality</h6>
+                            <p>$249.00 <del>$ 499.00</del></p>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <button>Add to card</button>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/products/22_1_493x.jpg?v=1650701158" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h6>Sneakers De Sport Runing</h6>
+                            <p>$549.00 <del>$ 699.00</del></p>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <button>Add to card</button>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/products/2_5_9762fa85-00ce-42ee-a98e-adb0b3cb5a77_493x.jpg?v=1674022859" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h6>Sneakers De Sport Runing</h6>
+                            <p>$449.00 <del>$ 599.00</del></p>
+                            <div class="icon">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <button>Add to card</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <div class="delivery">
+        <div class="sub-delivery">
+            <div class="icon">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="des">
+                <h2>Free Shipping</h2>
+                <p>Complimentary on all orders</p>
+            </div>
+        </div>
+        <div class="sub-delivery">
+            <div class="icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="des">
+                <h2> 
+                    Secure Checkout</h2>
+                <p>For all major credit/debit cards</p>
+            </div>
+        </div>
+        <div class="sub-delivery">
+            <div class="icon">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="des">
+                <h2>5.0 Trustpilot rating
+                    </h2>
+                <p>Over 5000 products in stock</p>
+            </div>
+        </div>
+        <div class="sub-delivery">
+            <div class="icon">
+                <i class="fa-solid fa-sack-dollar"></i>
+            </div>
+            <div class="des">
+                <h2>Free Return</h2>
+                <p>Free returns for up to 28 days</p>
+            </div>
+        </div>
+    </div>
+     <div class="banner">
+        <img src="https://tabbase.myshopify.com/cdn/shop/files/3_1.jpg?v=1649851424" alt="">
+        <div class="title-banner">
+            <h2>the best collections</h2>
+            <h1>Best Collection Of Different Types Of Shoes</h1>
+            <button>Discover More</button>
+        </div>
+     </div>  
+     <div class="content">
+        <div class="video">
+            <iframe title="vimeo-player" src="https://player.vimeo.com/video/320214019?h=5efad4e656" width="800" frameborder="0"    allowfullscreen></iframe>
+        </div>
+        <div class="img">
+            <img src="https://tabbase.myshopify.com/cdn/shop/files/4_1_908462e2-8073-4ce7-96ab-8734b493858e.jpg?v=1650438125" alt="">
+            <div class="img-title">
+                <h2>THE BEST COLLCETIONS</h2>
+                <h1>The Best Offers</h1>
+                <button>Shop Now</button>    
+            </div>
+        </div>
+     </div> 
+        <section>
+            <h1><span>Special Shoes</span> Collection</h1>
+            <div class="collection">
+                <div class="collection-card">
+                    <div class="sale">
+                        Sale
+                    </div>
+                    <div class="view">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="collection-img">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/products/1_7_493x.jpg?v=1650697313" alt="">
+                    </div>
+                    <div class="collection-title">
+                        <p>Awsome Design</p>
+                        <h3>Professional Sports Shoes</h3>
+                        <span>40</span>
+                        <div class="color">
+                            <i style="color:#000;" class="fa-solid fa-circle"></i>
+                            <i style="color:red;" class="fa-solid fa-circle"></i>
+                            <i style="color:blue;" class="fa-solid fa-circle"></i>
+                        </div>
+                        <h4>$549.00 <del>$699.00</del></h4>
+                        <div class="icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="button">
+                            <button>Add To Cart</button>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="sale">
+                        Sale
+                    </div>
+                    <div class="view">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="collection-img">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/products/15_1_dfcad812-3f77-49fa-aedd-55d050321f6b_493x.jpg?v=1650701327" alt="">
+                    </div>
+                    <div class="collection-title">
+                        <p>Sports Shoes</p>
+                        <h3>Sport running Sneakers</h3>
+                        <span>40</span>
+                        <span>41</span>
+                        <span>42</span>
+                        <div class="color">
+                            <i style="color:#000;" class="fa-solid fa-circle"></i>
+                            <i style="color:yellow;" class="fa-solid fa-circle"></i>
+                        </div>
+                        <h4>$249.00 <del>$599.00</del></h4>
+                        <div class="icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="button">
+                            <button>Add To Cart</button>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="sale">
+                        Sale
+                    </div>
+                    <div class="view">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="collection-img">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/products/11_1_b398927e-ee1b-43ee-a3e9-fab2797f46c6_493x.jpg?v=1650701525" alt="">
+                    </div>
+                    <div class="collection-title">
+                        <p>Fresh Shoes</p>
+                        <h3>Professional Sports Shoes</h3>
+                        <span>44</span>
+                        <span>46</span>
+
+                        <div class="color">
+                            <i style="color:gray;" class="fa-solid fa-circle"></i>
+                            <i style="color:#000;" class="fa-solid fa-circle"></i>
+                            <i style="color:green;" class="fa-solid fa-circle"></i>
+                        </div>
+                        <h4>$249.00 <del>$499.00</del></h4>
+                        <div class="icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="button">
+                            <button>Add To Cart</button>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="sale">
+                        Sale
+                    </div>
+                    <div class="view">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="collection-img">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/products/4_3_493x.jpg?v=1650697135" alt="">
+                    </div>
+                    <div class="collection-title">
+                        <p>Runing Shoes</p>
+                        <h3>Laced Joggers for Men</h3>
+
+                        <span>42</span>
+                        <div class="color">
+                            <i style="color:#000;" class="fa-solid fa-circle"></i>
+                            <i style="color:pink;" class="fa-solid fa-circle"></i>
+                            <i style="color:blue;" class="fa-solid fa-circle"></i>
+                        </div>
+                        <h4>$599.00 <del>$699.00</del></h4>
+                        <div class="icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="button">
+                            <button>Add To Cart</button>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <div class="sale">
+                        Sale
+                    </div>
+                    <div class="view">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+                    <div class="collection-img">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/products/30_1_493x.jpg?v=1650701614" alt="">
+                    </div>
+                    <div class="collection-title">
+                        <p>Yoga Shoes</p>
+                        <h3>Sprite Yoga Softy Set</h3>
+                        <span>40</span>
+                        <span>41</span>
+                        <span>42</span>
+                        <div class="color">
+                            <i style="color:#000;" class="fa-solid fa-circle"></i>
+                            <i style="color:blue;" class="fa-solid fa-circle"></i>
+                            <i style="color:gray;" class="fa-solid fa-circle"></i>
+                        </div>
+                        <h4>$250.00 <del>$399.00</del></h4>
+                        <div class="icon">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="button">
+                            <button>Add To Cart</button>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+         </section>
+         <section>
+            <div class="developer">
+                <div class="card-developer">
+                    <div class="image">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/files/5_908b0610-b0f2-4013-a6a1-d10049ce7c4f_80x80.png?v=1650457792" alt="">
+                        <div class="name">
+                            <p>John Deere</p>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                    <div class="about">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam. Magnam debitis, fuga est molestiae asperiores sunt dolorem incidunt officiis.
+                    </div>
+                </div>
+                <div class="card-developer">
+                    <div class="image">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/files/4_80x80.png?v=1650457877" alt="">
+                        <div class="name">
+                            <p>Aiswarya Ray</p>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                    <div class="about">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam. Magnam debitis, fuga est molestiae asperiores sunt dolorem incidunt officiis.
+                    </div>
+                </div>
+                <div class="card-developer">
+                    <div class="image">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/files/3_80x80.png?v=1650457895" alt="">
+                        <div class="name">
+                            <p>Alisa Roy</p>
+                            <p>Designer</p>
+                        </div>
+                    </div>
+                    <div class="about">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam. Magnam debitis, fuga est molestiae asperiores sunt dolorem incidunt officiis.
+                    </div>
+                </div>
+                <div class="card-developer">
+                    <div class="image">
+                        <img src="https://tabbase.myshopify.com/cdn/shop/files/01_80x80.png?v=1650457857" alt="">
+                        <div class="name">
+                            <p>Mr.Darrel</p>
+                            <p>Designer</p>
+                        </div>
+                    </div>
+                    <div class="about">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quam. Magnam debitis, fuga est molestiae asperiores sunt dolorem incidunt officiis.
+                    </div>
+                </div>
+            </div>
+         </section>
+         <section>
+            <div class="blog">
+                <h1><span>Our Latest</span> Blog</h1>
+                <div class="blog-card">
+                    <div class="card">
+                        <div class="date">
+                            19 Apr
+                        </div>
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/articles/6_1.jpg?v=1650360117" alt="">
+                        </div>
+                        <div class="title">
+                            <span><i class="fa-solid fa-user"></i> Romit Gabani</span>
+                            <h4>Neeman's Cotton Classic Ivory Sneakers</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt...</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="date">
+                            19 Apr
+                        </div>
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/articles/5_1.jpg?v=1650359820" alt="">
+                        </div>
+                        <div class="title">
+                            <span><i class="fa-solid fa-user"></i> Romit Gabani</span>
+                            <h4>Laced Joggers for Men</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt...</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="date">
+                            19 Apr
+                        </div>
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/articles/4_2.jpg?v=1650359669" alt="">
+                        </div>
+                        <div class="title">
+                            <span><i class="fa-solid fa-user"></i> Romit Gabani</span>
+                            <h4>Sports Shoes of High Quality</h4>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt...</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="date">
+                            19 Apr
+                        </div>
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/articles/3_3.jpg?v=1650359549" alt="">
+                        </div>
+                        <div class="title">
+                            <span><i class="fa-solid fa-user"></i> Romit Gabani</span>
+                            <h4>Professional Sports Shoes</h4>
+                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,...</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="date">
+                            19 Apr
+                        </div>
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/articles/2_3.jpg?v=1650359367" alt="">
+                        </div>
+                        <div class="title">
+                            <span><i class="fa-solid fa-user"></i> Romit Gabani</span>
+                            <h4>Joggers for All Ages</h4>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt...</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="date">
+                            19 Apr
+                        </div>
+                        <div class="image">
+                            <img src="https://tabbase.myshopify.com/cdn/shop/articles/1_4.jpg?v=1650359287" alt="">
+                        </div>
+                        <div class="title">
+                            <span><i class="fa-solid fa-user"></i> Romit Gabani</span>
+                            <h4>Football Shose</h4>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt...</p>
+                            <button>Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
+<script>
+    AOS.init();
+  </script>
